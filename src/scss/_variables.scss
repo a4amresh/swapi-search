@@ -1,0 +1,27 @@
+// $theme-colors: ("primary": #0074d9,
+//     "danger": #ff4136);
+
+// $enable-rounded:   false;
+
+$primary: #6C1D5F;
+
+// ================================
+// COLORS
+// ================================
+$blue       : $primary;
+$cyan       : #149294;
+$orange     : #FF6E46;
+$red        : #DD0000;
+// $gray-600: #EDF7FA;
+$gray-100   : #f8f9fa;
+$gray-600   : #758184;
+
+$body-bg    : $gray-100;
+$body-color : #1E1926;
+
+// ================================
+// Fonst Size
+// ================================
+$font-size-base : 16;
+$h1-font-size : $font-size-base * 2.25;
+$grid-gutter-width : 15px;

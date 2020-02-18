@@ -1,0 +1,22 @@
+.card {
+    margin-bottom: $grid-gutter-width;
+    border       : none;
+    box-shadow   : 0 2px 4px transparentize($color: #000000, $amount: 0.8);
+    overflow: hidden;
+
+    .card-footer,
+    .card-header {
+        background-color: transparent;
+    }
+    .card-header {
+        .material-icons {
+            font-size: 1em;
+            line-height: 1;
+        }
+    }
+
+    .card-title {
+        font-size    : 1.2em;
+        margin-bottom: 0;
+    }
+}

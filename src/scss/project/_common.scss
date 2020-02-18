@@ -1,0 +1,27 @@
+/*==========App common=========*/
+body,
+html {
+    width      : 100%;
+    height     : 100%;
+    // overflow: hidden;
+}
+.wrapper {
+    position        : relative;
+    // background-color: #f4f8f9;
+    min-height      : 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.main-content {
+    padding-left : $grid-gutter-width;
+    padding-right: $grid-gutter-width;
+    transition   : margin-left 0.3s ease-in-out;
+    // Overdide for sharepoint
+    width: auto;
+    float: none;
+}
+
+/*==========App common=======End==*/
